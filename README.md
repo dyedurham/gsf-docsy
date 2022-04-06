@@ -20,10 +20,6 @@ $ git submodule
 
 You can find detailed theme instructions in the [Docsy user guide][].
 
-## Deployment
-
-TODO, once this is deployed into a higher environment
-
 ## Development
 
 Clone this repository, including submodules, to your local machine:
@@ -40,10 +36,10 @@ If you want to do SCSS edits and want to publish these, you need to install `Pos
 npm install
 ```
 
-## Running in a container locally
+### Running in a container locally
 
 You can run this site inside a [Docker](https://docs.docker.com/)
-container, the container runs with a volume bound to the `docsy-example`
+container, the container runs with a volume bound to the `gsf-docsy`
 folder. This approach doesn't require you to install any dependencies other
 than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
 Windows and Mac, and [Docker Compose](https://docs.docker.com/compose/install/)
@@ -86,3 +82,34 @@ documentation](https://docs.docker.com/compose/gettingstarted/).
 [docsy user guide]: https://docsy.dev/docs
 [docsy]: https://github.com/google/docsy
 [hugo theme]: https://www.mikedane.com/static-site-generators/hugo/installing-using-themes/
+
+## Deployment
+
+This site is deployed to kubernetes via [flux](https://bitbucket.globalx.com.au/projects/CLD/repos/flux-gsf/browse). It runs behind [Kong routes](https://bitbucket.globalx.com.au/projects/KONG/repos/kong-configuration-deck/browse) listening on `/au/documentation/`.
+
+The docker image is built by [Team City](https://teamcity.globalx.com.au).
+
+To reproduce the production setup locally:
+
+1. Build and run the docker container. The site will be listening on http://localhost:1314/. Due to the production build requiring /au/documentation as the base url, it won't work directly on this URL.
+
+```
+docker build -f deploy.Dockerfile -t gsf-docsy .
+docker run -p 1314:80 gsf-docsy
+```
+
+2. Modify Kong rules. Change the Kong service host to your local IP & port to 1314. It will now be accessible on https://local-online.globalx.com.au/documentation/au/.
+
+3. Any changes made to the config or content will require the container to be rebuilt (repeat step 1).
+
+## Comparing Local Development and Production workflows
+
+The base config is in [./config/\_default/config.toml](). When running via [./docker-compose](), it sets the HUGO_ENV to development.
+
+The production config is in [./config/production/config.toml](). When building the [deploy.Dockerfile](), it sets the HUGO_ENV to production which forces the Production config values to override the default config values.
+
+References:
+
+- Hugo configuration: https://gohugo.io/getting-started/configuration/#configuration-directory
+- Details on the ONBUILD base container used for Production: https://github.com/klakegg/docker-hugo#using-onbuild-image
+- Details on the standard base container used for development: https://github.com/klakegg/docker-hugo#configuration

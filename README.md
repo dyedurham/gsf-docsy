@@ -98,7 +98,7 @@ docker build -f deploy.Dockerfile -t gsf-docsy .
 docker run -p 1314:80 gsf-docsy
 ```
 
-2. Modify Kong rules. Change the Kong service host to your local IP & port to 1314. It will now be accessible on https://local-online.globalx.com.au/documentation/au/.
+2. Modify Kong rules. Change the Kong service host to your local IP, port to 1314 and protocol to http. It will now be accessible on https://local-online.globalx.com.au/documentation/au/.
 
 3. Any changes made to the config or content will require the container to be rebuilt (repeat step 1).
 

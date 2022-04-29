@@ -85,7 +85,7 @@ documentation](https://docs.docker.com/compose/gettingstarted/).
 
 ## Deployment
 
-This site is deployed to kubernetes via [flux](https://bitbucket.globalx.com.au/projects/CLD/repos/flux-gsf/browse). It runs behind [Kong routes](https://bitbucket.globalx.com.au/projects/KONG/repos/kong-configuration-deck/browse) listening on `/au/documentation/`.
+This site is deployed to kubernetes via [flux](https://bitbucket.globalx.com.au/projects/CLD/repos/flux-gsf/browse). It runs behind [Kong routes](https://bitbucket.globalx.com.au/projects/KONG/repos/kong-configuration-deck/browse) available at `/docsy/`.
 
 The docker image is built by [Team City](https://teamcity.globalx.com.au).
 
@@ -98,7 +98,7 @@ docker build -f deploy.Dockerfile -t gsf-docsy .
 docker run -p 1314:80 gsf-docsy
 ```
 
-2. Modify Kong rules. Change the Kong service host to your local IP, port to 1314 and protocol to http. It will now be accessible on https://local-online.globalx.com.au/documentation/au/.
+2. Modify Kong rules. Change the Kong service host to your local IP, port to 1314 and protocol to http. It will now be accessible on https://local-online.globalx.com.au/docsy/.
 
 3. Any changes made to the config or content will require the container to be rebuilt (repeat step 1).
 

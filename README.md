@@ -85,7 +85,7 @@ documentation](https://docs.docker.com/compose/gettingstarted/).
 
 ## Deployment
 
-This site is deployed to kubernetes via [flux](https://bitbucket.globalx.com.au/projects/CLD/repos/flux-gsf/browse). It runs behind [Kong routes](https://bitbucket.globalx.com.au/projects/KONG/repos/kong-configuration-deck/browse) available at `/docsy/`.
+This site is deployed to kubernetes via [flux](https://bitbucket.globalx.com.au/projects/CLD/repos/flux-gsf/browse). It runs behind [Kong routes](https://bitbucket.globalx.com.au/projects/KONG/repos/kong-configuration-deck/browse) available at `/docsy/` e.g. https://dev-online.globalx.com.au/docsy.
 
 The docker image is built by [Team City](https://teamcity.globalx.com.au).
 

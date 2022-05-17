@@ -28,6 +28,12 @@ Clone this repository, including submodules, to your local machine:
 git clone --recurse-submodules --depth 1 ssh://git@bitbucket.globalx.com.au:7999/ar/gsf-docsy.git
 ```
 
+Note: If you forgot to clone with submodules, run this to pull the submodules into an already cloned repo:
+
+```bash
+git submodule update --init --recursive
+```
+
 You can now edit your own versions of the site’s source files.
 
 If you want to do SCSS edits and want to publish these, you need to install `PostCSS`

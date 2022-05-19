@@ -1,3 +1,10 @@
+# [1.2.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.1.0...v1.2.0) (2022-05-19)
+
+
+### Features
+
+* add GSF overview ([e14d859](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/e14d8591c23c56bd082a7b8c01bb852ac3434578))
+
 # [1.1.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.0.1...v1.1.0) (2022-05-18)
 
 

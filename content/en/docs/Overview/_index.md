@@ -4,7 +4,21 @@ linkTitle: "Overview"
 weight: 1
 ---
 
-# C4 System Landscape Diagram
+## What is GSF?
+
+GlobalX Services Framework (GSF) is the set of services and patterns that are to be used to provide software features to external and internal customers. 
+
+It provides:
+* the underlying [platform]({{< relref "../GSF Platform/" >}}) on which the services are hosted
+* components that allow external and internal communication e.g. [HTTP APIs]({{< relref "../GSF Platform/1 Patterns/1 Request Flow.md" >}}) and message brokers
+* a set of [core services]({{< relref "../GSF Core Services/" >}}) providing common application concerns such as management of users, products and documents
+* the patterns and tools for devops activities such as [CI/CD]({{< relref "../GSF Platform/1 Patterns/2 CI_CD.md" >}}) and [observability]({{< relref "../GSF Platform/1 Patterns/4 Monitoring.md" >}})
+
+Examples of software systems built on GSF include the [Search platform]({{< relref "../Search/" >}}) and [Unity]({{< relref "../Unity/" >}})
+
+GSF is based on a [Microservice architecture]({{< relref "../GSF Platform/3 Components/Microservice.md" >}}), providing HTTP APIs which are consumed by [Microsites]({{< relref "../GSF Platform/3 Components/Microsite.md" >}}) (browser based SPAs) and integrated directly into customer applications.
+
+## C4 System Landscape Diagram
 
 ```plantuml
 @startuml system_landscape

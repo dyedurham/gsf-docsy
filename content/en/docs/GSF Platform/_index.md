@@ -23,4 +23,4 @@ Key facts:
 
 This diagram highlights the key Google Cloud infrastructural components that are used for the GSF platform.
 
-{{< figure src="gsf2 infrastructure.drawio.svg" caption="Mouse over the above image and click the edit button!">}}
+{{< figure src="gsf2 infrastructure.drawio.svg" caption="GSF Infrastructure">}}

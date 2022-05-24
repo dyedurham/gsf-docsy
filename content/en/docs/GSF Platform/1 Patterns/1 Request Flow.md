@@ -11,7 +11,7 @@ description: >
 
 This diagam shows the key components and how they are deployed.
 
-{{< figure src="../gsf2 deployment.drawio.svg" caption="Mouse over the above image and click the edit button!">}}
+{{< figure src="../gsf2 deployment.drawio.svg" caption="Deployment of key traffic management components">}}
 
 ## Request Flow
 

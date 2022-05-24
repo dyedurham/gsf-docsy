@@ -1,3 +1,15 @@
+# [1.3.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.2.0...v1.3.0) (2022-05-24)
+
+
+### Bug Fixes
+
+* rename vnext to unity ([5960a0a](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/5960a0ac3236fa95c710328d0aa2f14c91dd8030))
+
+
+### Features
+
+* update overview and add new diagrams ([c92daf7](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/c92daf79b52a4b7a90fd02af919204b2d3efcbda))
+
 # [1.2.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.1.0...v1.2.0) (2022-05-19)
 
 

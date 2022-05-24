@@ -6,7 +6,7 @@ This site aims to provide:
 
 - high level architectural guidance on system composition
 - a starting point for developers on how to use, extend and maintain the systems
-- maintainable diagrams, such as sequence diagrams, class diagrams and flow diagrams. This site integrates tools such as Mermaid and PlantUML so that diagrams can be described and stored as code. See [Docsy diagrams documentation][https://www.docsy.dev/docs/adding-content/diagrams-and-formulae/] for more details.
+- maintainable diagrams, such as sequence diagrams, class diagrams and flow diagrams. This site integrates tools such as Mermaid and PlantUML so that diagrams can be described and stored as code. 
 
 Ths portal is based on [Docsy][]. Docsy is a [Hugo theme][] for technical documentation sites, providing easy
 site navigation, structure, and more.
@@ -33,14 +33,29 @@ Note: If you forgot to clone with submodules, run this to pull the submodules in
 ```bash
 git submodule update --init --recursive
 ```
+**Editing Content**
 
-You can now edit your own versions of the site’s source files.
+The documentation content starts from the [content/en/docs](./content/en/docs) directory
 
-If you want to do SCSS edits and want to publish these, you need to install `PostCSS`
+**Editing Diagrams**
 
-```bash
-npm install
-```
+Simple diagrams can be included inline using PlantUML or Mermaid syntax.
+
+More complex diagrams can be authored using [diagrams.net](https://diagrams.net). 
+
+To create a new diagrams.net diagrams:
+
+* Go to https://app.diagrams.net/
+* Choose New Diagram
+* Save as SVG (Editable Vector Diagram) into the correct location in this repo on your local. The app will sync changes to that file as you edit
+
+To edit an existing diagram:
+
+* On the hosted docsy portal, click the Edit button
+* Make the changes, and Save
+* Copy the downloaded .svg into this repo
+
+See [Docsy diagrams documentation][https://www.docsy.dev/docs/adding-content/diagrams-and-formulae/] for more details.
 
 ### Running in a container locally
 

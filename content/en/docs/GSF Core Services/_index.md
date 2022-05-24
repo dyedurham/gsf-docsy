@@ -63,12 +63,12 @@ System_Boundary(gsf, "gsf"){
     }
 }
 System(search_portal, "Search Portal")
-System(vnext, "VNext Portal")
+System(unity, "Unity")
 System(mc, "Matter Centre")
 System(customer, "Customer App")
 
 Rel(search_portal, gsf, "uses", "")
-Rel(vnext, gsf, "uses", "")
+Rel(unity, gsf, "uses", "")
 Rel(mc, gsf, "uses", "")
 Rel(customer, gsf, "uses", "")
 

@@ -30,4 +30,4 @@ Our goal is to build a product that be be extended into multiple areas of law an
 
 - e.g. D&D Professional Services team builds default workflows for different areas of law, that would be selected by a Small Business Owner
 - e.g. D&D Professional Services team builds a customised workflow in consultation with a Partner at a large law firm
-- e.g. a Practice Manager uses the vNext toolkit to develop a customised workflow
+- e.g. a Practice Manager uses the Unity toolkit to develop a customised workflow

@@ -1,3 +1,10 @@
+## [1.3.1](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.0...v1.3.1) (2022-05-27)
+
+
+### Bug Fixes
+
+* use lunr local search instead of google ([84e5e54](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/84e5e545ee0a1c84b70271f81c0f1c56dca74170))
+
 # [1.3.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.2.0...v1.3.0) (2022-05-24)
 
 

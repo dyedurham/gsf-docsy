@@ -4,7 +4,7 @@ linkTitle: "Features"
 date: 2017-01-05
 weight: 2
 description: >
-  Features provided by the GSF Core Services
+  Features provided by the Search Manager system
 ---
 
 {{% pageinfo %}}

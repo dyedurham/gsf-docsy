@@ -4,7 +4,7 @@ linkTitle: "Features"
 date: 2017-01-05
 weight: 2
 description: >
-  Features provided by Conveyancing Manager
+  Features provided by the Conveyancing Manager system
 ---
 
 {{% pageinfo %}}

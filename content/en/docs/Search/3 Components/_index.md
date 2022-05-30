@@ -4,7 +4,7 @@ linkTitle: "Components"
 date: 2017-01-05
 weight: 3
 description: >
-  Components within GSF Core Services
+  Components within Search Manager system
 ---
 
 {{% pageinfo %}}

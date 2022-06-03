@@ -1,10 +1,10 @@
 ---
-title: "Components"
-linkTitle: "Components"
+title: "Features"
+linkTitle: "Features"
 date: 2017-01-05
-weight: 3
+weight: 2
 description: >
-  Components within Search Manager system
+  Features provided by the Conveyancing Manager system
 ---
 
 {{% pageinfo %}}

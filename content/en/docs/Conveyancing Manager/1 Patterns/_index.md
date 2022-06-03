@@ -1,10 +1,10 @@
 ---
-title: "Components"
-linkTitle: "Components"
+title: "Patterns & Practices"
+linkTitle: "Patterns & Practices"
 date: 2017-01-05
-weight: 3
+weight: 1
 description: >
-  Components within Search Manager system
+  Patterns & practices
 ---
 
 {{% pageinfo %}}

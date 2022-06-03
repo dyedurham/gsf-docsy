@@ -1,7 +1,7 @@
 ---
 title: "Search Manager"
 linkTitle: "Search Manager"
-weight: 4
+weight: 5
 date: 2017-01-05
 description: >
   Information about the Search Manager system

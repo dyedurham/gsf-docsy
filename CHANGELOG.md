@@ -1,3 +1,10 @@
+## [1.3.2](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.1...v1.3.2) (2022-06-10)
+
+
+### Bug Fixes
+
+* comment out github urls so incorrect links aren't generated on pages ([f1a4fff](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/f1a4fff37244ff0c3ec614f77ce06e1936327a59))
+
 ## [1.3.1](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.0...v1.3.1) (2022-05-27)
 
 

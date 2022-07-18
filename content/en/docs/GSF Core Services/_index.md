@@ -21,8 +21,8 @@ title GSF Core Service System Landscape
 System_Boundary(gsf, "gsf"){
     System_Boundary(c1, "Order Management"){
         Container(GSF_OrderFulfilmentManager_Endpoint, "GSF.OrderFulfilmentManager.Endpoint", "C# Microservice", "Provides APIs for retrieving order status information")
-        Container(gsf_orderfulfilmentmanager_ui, "gsf.orderfulfilmentmanager.ui", "C# Microservice", "UI for internal staff to interact with customer orders")
-        Container(GSF_OrderManager_UI, "GSF.OrderManager.UI", "C# Microservice", "UI for customers to interact with their own orders")
+        Container(gsf_orderfulfilmentmanager_ui, "gsf.orderfulfilmentmanager.ui", "Angular SPA", "UI for internal staff to interact with customer orders")
+        Container(GSF_OrderManager_UI, "GSF.OrderManager.UI", "Angular SPA", "UI for customers to interact with their own orders")
         Container(GlobalX_IntelliManager, "GlobalX.IntelliManager", "C# Monolith", "Stores orders and documents. Superseded by OFM & Order Manager")
         Container(GlobalX_Order, "GlobalX.Order", "C# Microservice", "API for placing orders into GSF2")
     }
@@ -37,7 +37,7 @@ System_Boundary(gsf, "gsf"){
 
     System_Boundary(c3, "Document Storage & Manipulation"){
         Container(GSF_Documents_Endpoint, "GSF.Documents.Endpoint", "C# Microservice", "TODO")
-        Container(GSF_Documents_Store, "GSF.Documents.Store", "C# Microservice", "TODO")
+        Container(GSF_Documents_Store, "GSF.Document.Store", "C# Microservice", "TODO")
         Container(GSF_PDF, "GSF.PDF", "C# Microservice", "TODO")
         Container(GSF_Conversion_GIF, "GSF.Conversion.GIF", "C# Microservice", "TODO")
         Container(GSF_Document_Generate, "GSF.Document.Generate", "C# Microservice", "TODO")

@@ -10,7 +10,6 @@ description: >
 
 The current architecture for user management does not have a clear distinction between the Search application and GSF Core Services, so this documentation will reference both areas.
 
-
 Keycloak provides basic account information used for authentication, and is intended tp be application agnostic. This includes username, first name, last name, email address.
 
 GXSDB stores further user profile data relevant for GSF services.

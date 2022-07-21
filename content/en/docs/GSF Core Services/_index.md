@@ -51,7 +51,7 @@ System_Boundary(gsf, "gsf"){
     }
 
     System_Boundary(c5, "Miscellaneous services"){
-        Container(GXSDB, "GXSDB", "Postgres Database", "Legacy storage")
+        ContainerDb(GXSDB, "GXSDB", "Postgres Database", "Legacy storage")
         Container(gxs_app_server, "gxs-app-server", "Containerised C application server", "Legacy C apps 'Purple pages'")
         Container(gxs_services_server, "gxs-services-server", "Containerised C application server", "Legacy C apps 'Purple pages'")
         Container(GSF_Branding, "GSF.Branding", "C# Microservice", "TODO")

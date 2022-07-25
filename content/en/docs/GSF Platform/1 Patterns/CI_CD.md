@@ -1,8 +1,7 @@
 ---
-title: "CD/CD"
+title: "CI/CD"
 linkTitle: "CI/CD"
-date: 2017-01-05
-weight: 2
+weight: 3
 description: >
   GSF CI/CD Patterns
 ---

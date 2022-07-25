@@ -1,6 +1,7 @@
 ---
 title: "Monitoring and Alerting"
 linkTitle: "Monitoring and Alerting"
+weight: 5
 description: >
   Monitoring and Alerting
 ---

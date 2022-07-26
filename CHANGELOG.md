@@ -1,3 +1,10 @@
+# [1.4.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.2...v1.4.0) (2022-07-26)
+
+
+### Features
+
+* update landing page format ([b795194](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/b795194f61c2ce66e891e27d0351fe48bde8770b))
+
 ## [1.3.2](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.1...v1.3.2) (2022-06-10)
 
 

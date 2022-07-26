@@ -2,10 +2,16 @@
 title: "GSF Platform"
 linkTitle: "GSF Platform"
 weight: 2
-date: 2017-01-05
 description: >
   Information about the GSF platform
 ---
+
+{{< figure src="gsf_platform_conceptual_overview.drawio.svg">}}
+
+The GSF Platform provides:
+* the underlying [_infrastructure_]({{< relref "../GSF Platform/1 Patterns/GCP Infrastructure.md" >}}) on which the services are hosted, and tooling for provisioning this infrastructure
+* _Platform Services_  providing common concerns such as [traffic management]({{< relref "../GSF Platform/1 Patterns/Request Flow.md" >}}), data storage and [observability]({{< relref "../GSF Platform/1 Patterns/Monitoring.md" >}})
+* patterns and tools for [_CI/CD_]({{< relref "../GSF Platform/1 Patterns/CI_CD.md" >}})
 
 Key facts:
 
@@ -18,9 +24,3 @@ Key facts:
   * Windows hosted applications, installed directly onto Windows virtual machines
 
 * New application development is done in the Kubernetes pattern. Windows hosted applications are being migrated over to the Kubernetes pattern.
-
-## Infrastructure Components
-
-This diagram highlights the key Google Cloud infrastructural components that are used for the GSF platform.
-
-{{< figure src="gsf2 infrastructure.drawio.svg" caption="GSF Infrastructure">}}

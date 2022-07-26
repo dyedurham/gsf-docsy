@@ -1,7 +1,7 @@
 ---
 title: "GitOps"
 linkTitle: "GitOps"
-weight: 3
+weight: 4
 description: >
   Introduction to GSF GitOps
 ---

@@ -1,8 +1,7 @@
 ---
 title: "Request Flow"
 linkTitle: "Request Flow"
-date: 2017-01-05
-weight: 1
+weight: 2
 description: >
   High level overview of the request flow through the GSF platform
 ---

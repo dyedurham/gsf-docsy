@@ -1,3 +1,10 @@
+## [1.4.1](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.0...v1.4.1) (2022-08-01)
+
+
+### Bug Fixes
+
+* update submodules to get relative url bugfix which broke plantuml diagrams. Update doco ([f52908f](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/f52908f9b3f6540a5fee971cb4fcddd31d5c31fd))
+
 # [1.4.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.3.2...v1.4.0) (2022-07-26)
 
 

@@ -26,7 +26,11 @@ Clone this repository, including submodules, to your local machine:
 
 ```bash
 git clone --recurse-submodules --depth 1 ssh://git@bitbucket.globalx.com.au:7999/ar/gsf-docsy.git
+
+cd themes/docsy
+npm install
 ```
+Until this site is upgraded to use Go modules, `npm install` is required to add bootstrap & font awesome. See https://github.com/google/docsy/discussions/950
 
 Note: If you forgot to clone with submodules, run this to pull the submodules into an already cloned repo:
 

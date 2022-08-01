@@ -33,6 +33,13 @@ Note: If you forgot to clone with submodules, run this to pull the submodules in
 ```bash
 git submodule update --init --recursive
 ```
+
+To pull latest submodule changes:
+
+```bash
+git submodule update --recursive --remote
+```
+
 **Editing Content**
 
 The documentation content starts from the [content/en/docs](./content/en/docs) directory
@@ -112,14 +119,19 @@ The docker image is built by [Team City](https://teamcity.globalx.com.au).
 
 To reproduce the production setup locally:
 
-1. Build and run the docker container. The site will be listening on http://localhost:1314/. Due to the production build requiring /au/documentation as the base url, it won't work directly on this URL.
+1. Build and run the docker container. The site will be listening on http://localhost:1314/. Due to the production build requiring /docsy as the base url, it won't work directly on this URL.
 
 ```
 docker build -f deploy.Dockerfile -t gsf-docsy .
 docker run -p 1314:80 gsf-docsy
 ```
 
-2. Modify Kong rules. Change the Kong service host to your local IP, port to 1314 and protocol to http. It will now be accessible on https://local-online.globalx.com.au/docsy/.
+2. Modify Kong rules.
+
+* Change the Kong service host to your local IP, port to 1314 and protocol to http.
+* Change route Strip Path to True
+
+The site will now be accessible on https://local-online.globalx.com.au/docsy.
 
 3. Any changes made to the config or content will require the container to be rebuilt (repeat step 1).
 

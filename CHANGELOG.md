@@ -5,6 +5,13 @@
 
 * Update doco for submodule issues ([ea63bc0](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/ea63bc0f9dec96869b7bd25f1725a6b180257ed1))
 
+## [1.4.2](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.1...v1.4.2) (2022-08-01)
+
+
+### Bug Fixes
+
+* Update doco for submodule issues ([ea63bc0](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/ea63bc0f9dec96869b7bd25f1725a6b180257ed1))
+
 ## [1.4.1](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.0...v1.4.1) (2022-08-01)
 
 

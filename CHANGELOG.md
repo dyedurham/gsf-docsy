@@ -1,3 +1,10 @@
+## [1.4.3](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.2...v1.4.3) (2022-08-01)
+
+
+### Bug Fixes
+
+* semantic release mess ([124d3ca](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/124d3cad3d30bcc6e688dda729cd111d4e242742))
+
 ## [1.4.2](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.1...v1.4.2) (2022-08-01)
 
 

@@ -30,7 +30,7 @@ System(unity_app, "Unity application")
 
 System_Boundary(c1, "Order Management"){
     Container(GSF_OrderFulfilmentManager_Endpoint, "GSF.OrderFulfilmentManager.Endpoint", "C# Microservice", "Provides APIs for retrieving order status information")
-    Container(gsf_orderfulfilmentmanager_ui, "gsf.orderfulfilmentmanager.ui", "C# Microservice", "UI for internal staff to interact with customer orders")
+    Container(gsf_orderfulfilmentmanager_ui, "gsf.orderfulfilmentmanager.ui", "Angular Microsite", "UI for internal staff to interact with customer orders")
     Container(GSF_OrderManager_UI, "GSF.OrderManager.UI", "Angular SPA", "UI for customers to interact with their own orders")
 }
 

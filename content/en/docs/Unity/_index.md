@@ -52,6 +52,11 @@ System_Boundary(system_unity, "Unity"){
 
    Container(container_gsf_document_generate, "GSF.Document.Generate", "Python microservice", "Generates documents from templates")
 
+   Container(container_auth_attributes, "Authorization.Attributes", "C# microservice", "Aggregates matter data for the Policy Agent to make decisions")
+
+   Container(container_opa, "Open Policy Agent", "", "Evaluates user access to resources based on policies")
+
+
 }
 
 System(system_search, "Search Manager")
@@ -80,6 +85,12 @@ Rel(container_gsf_workflow, subsystem_matter_data_apis, "workflow reads matter d
 Rel(container_gsf_workflow, container_gsf_documentassembly, "workflow reads precedents", "")
 Rel(container_gsf_workflow, container_gsf_document_generate, "Workflow generates documents from precedents and matter data", "")
 Rel(container_gsf_workflow, container_gsf_document_store, "Workflow saves generated documents", "")
+
+Rel(container_auth_attributes, subsystem_matter_data_apis, "reads matter data", "")
+Rel(container_opa, container_auth_attributes, "reads matter data", "")
+Rel(subsystem_matter_data_apis, container_opa, "uses OPA to verify user access", "")
+
+
 
 
 

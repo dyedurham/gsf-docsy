@@ -1,3 +1,10 @@
+# [1.6.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.5.0...v1.6.0) (2022-10-21)
+
+
+### Features
+
+* add more workflow doco ([f78ef27](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/f78ef272fab9543940ad289226a1c2f61bfe2949))
+
 # [1.5.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.3...v1.5.0) (2022-10-17)
 
 

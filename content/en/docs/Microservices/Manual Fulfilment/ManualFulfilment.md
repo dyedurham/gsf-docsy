@@ -1,24 +1,23 @@
 ---
-title: "Manual Fulfilment"
-linkTitle: "Manual Fulfilment"
+title: "Manual Fulfilment API"
+linkTitle: "Microservice (API)"
+date: 2022-10-26
 description: >
-  Manual Fulfilment
+  Manual Fulfilment Microservice (API)
 ---
 
 |Quick Links||
 |---|---|
 |Repo|[ManualFulfilment](https://bitbucket.globalx.com.au/projects/GSF/repos/manualfulfilment/browse)|
 |TeamCity|[ManualFulfilment](https://teamcity.globalx.com.au/project/Gsf_ManualFulfilment)|
-|K8s Deployment|[manual-fulfilment](https://console.cloud.google.com/kubernetes/deployment/australia-southeast1/dev-k8s/gsf-services/manual-fulfilment/)|
+|K8s Deployment (Dev)|[manual-fulfilment](https://console.cloud.google.com/kubernetes/deployment/australia-southeast1/dev-k8s/gsf-services/manual-fulfilment/overview?project=glx-development-au)|
 |URL (Prod)|https://ingress.production.globalx.com.au/api/internal/manual-fulfilment|
 
-## Summary
-Manual Fulfilment provides functionality to support the manual fulfilment of orders by the Order Fulfilment Team (OFT).\
-This includes billing, as well as tools to help with certificate automation.\
-It is intended to take over vital functionality from [GSF.Provider.Ess.Qld.Endpoint](https://bitbucket.globalx.com.au/projects/GSF/repos/gsf.provider.ess.qld.endpoint/browse).
 
 
 ## Services
+Below are the services inside Manual Fulfilment.\
+This list is currently incomplete.
 
 ### OrderDataParsingService
 This service receives a CDM Payload and parses it into a format that can be used by our UI.Vision Macros and PdfFormFillingService to automatically fill Web Forms and PDFs.\

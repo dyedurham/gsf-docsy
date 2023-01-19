@@ -1,3 +1,17 @@
+# [1.6.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.5.0...v1.6.0) (2022-10-21)
+
+
+### Features
+
+* add more workflow doco ([f78ef27](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/f78ef272fab9543940ad289226a1c2f61bfe2949))
+
+# [1.5.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.3...v1.5.0) (2022-10-17)
+
+
+### Features
+
+* added some ManualFulfilment info ([f9aa29f](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/f9aa29f7fd1fc1dad1d60881ece31a24ec5eae36))
+
 ## [1.4.3](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.4.2...v1.4.3) (2022-08-01)
 
 

@@ -1,3 +1,10 @@
+## [1.6.1](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.6.0...v1.6.1) (2023-01-19)
+
+
+### Bug Fixes
+
+* updated sequence diagram for manual fulfilment ([b5eb851](https://bitbucket.globalx.com.au/ar/gsf-docsy/commit/b5eb851502cd5f0438d7b70f78904ba002afd8b3))
+
 # [1.6.0](https://bitbucket.globalx.com.au/ar/gsf-docsy/compare/v1.5.0...v1.6.0) (2022-10-21)
 
 
